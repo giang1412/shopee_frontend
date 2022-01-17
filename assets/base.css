@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #ee4d2d;
+    --primary-color: #d0011b;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
@@ -9,6 +9,7 @@
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height) );
+    --header-sort-bar-height: 46px; 
 }
 
 * {
@@ -19,18 +20,9 @@ html {
     font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
-}
-/* Responsive */
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: auto;
     box-sizing: border-box;
 }
-
-.grid__full-width {
-    width: 100%;
-}
+/* Responsive */
 
 .grid__row {
     display: flex;
