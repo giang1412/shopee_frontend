@@ -929,6 +929,7 @@
 .caterogy__brand {
     background-color: #999999;
     position: relative;
+    display: block;
 }
 
 .caterogy__brand::after {
@@ -939,8 +940,8 @@
     font-size: 1.1rem;
     display: block;
     position: absolute;
-    top: 90px;
-    right: 63px;
+    top: 54%;
+    right: 33%;
     width: 64px;
     height: 16px;
     background-color: var(--primary-color);
@@ -1335,10 +1336,10 @@ i.home-product-item__like-icon-fill {
 }
 
 .home-product-item__sale-off-label {
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+    font-size: 1.1Rem;
+    line-height: 1.1rem;
     color: var(--white-color);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .home-product__pagination {
