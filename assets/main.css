@@ -1335,10 +1335,10 @@ i.home-product-item__like-icon-fill {
 }
 
 .home-product-item__sale-off-label {
-    font-size: 1.3rem;
-    line-height: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
     color: var(--white-color);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .home-product__pagination {
